@@ -16,7 +16,7 @@ class StorePicker extends React.Component {
     //   // 2. Get the text from that input
     const storeName = this.myInput.current.value;
     //   // 3. Change the page to /store/whatever-store-name
-    this.props.history.push(`/store/${storeName}`);
+    this.props.history.push(`/store/${storeName}`); // Router method child StorePicker has access to
   };
 
   // this method requires binding within constructor
