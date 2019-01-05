@@ -8,3 +8,7 @@
    e.g. `name="Tom" age={37}`
 
 3. State - Where the data lives, home for the data
+
+4. `this` - Component is an object, `this.props.value` is this instance's props
+
+5. `$r` trick - Click on a component in React Dev Tools, go to console, type `$r`, outputs the component as object
